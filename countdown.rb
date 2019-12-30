@@ -11,7 +11,9 @@ end
 
 def countdown_with_sleep(x)
   x = 5
-  while x > 0  do sleep(1) + puts "#{x}!"
+  while x > 0  
+  puts "#{x}!"
+  sleep(1)
   x -= 1 
   end
 end 
