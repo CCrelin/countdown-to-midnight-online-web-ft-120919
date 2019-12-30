@@ -1,8 +1,8 @@
 #write your code here
 
-def countdown(10)
+def countdown(x)
   x = 10 
   while x > 0 
-  puts "#{x}"
+  puts "#{x}!"
   x -= 1
 end
